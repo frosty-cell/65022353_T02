@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="exc2.css" rel="stylesheet">
+</head>
+<body id="body">
+
+    <div>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" onfocus="Focus(this)" onblur="Blur(this)">
+        </div>
+        
+        <div>
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" placeholder="Enter your surname" onfocus="Focus(this)" onblur="Blur(this)">
+        </div>
+
+        <label for="birthdate">Date of birth</label>
+        <input type="date" id="birthdate">
+        <label for="language">Select your language</label>
+        <select name="language" id="language">
+          <option value="">--Select Language--</option>
+          <option value="C">C</option>
+          <option value="Java">Java</option>
+          <option value="Javascript">Javascript</option>
+          <option value="Python">Python</option>
+        </select>
+        <button type="submit" onclick="submitForm()">Submit</button>
+
+    </div>
+      
+
+
+    <!--link to javascript-->
+    <script src="exc2.js"></script>
+</body>
+</html>
